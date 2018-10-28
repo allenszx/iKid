@@ -10,6 +10,10 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
+  @IBOutlet weak var joke: UILabel!
+  @IBAction func showAnswer(_ sender: UIButton) {
+    joke.text = "An irrelephant"
+  }
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.

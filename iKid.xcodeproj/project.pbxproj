@@ -15,6 +15,7 @@
 		102240F4218566C900B08217 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102240F2218566C900B08217 /* LaunchScreen.storyboard */; };
 		102240FF218566C900B08217 /* iKidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102240FE218566C900B08217 /* iKidTests.swift */; };
 		1022410A218566C900B08217 /* iKidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10224109218566C900B08217 /* iKidUITests.swift */; };
+		1022411821856D4600B08217 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1022411721856D4600B08217 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		10224105218566C900B08217 /* iKidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iKidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10224109218566C900B08217 /* iKidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iKidUITests.swift; sourceTree = "<group>"; };
 		1022410B218566C900B08217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1022411721856D4600B08217 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				102240E9218566C800B08217 /* FirstViewController.swift */,
 				102240EB218566C800B08217 /* SecondViewController.swift */,
 				102240ED218566C800B08217 /* Main.storyboard */,
+				1022411721856D4600B08217 /* ThirdViewController.swift */,
 				102240F0218566C900B08217 /* Assets.xcassets */,
 				102240F2218566C900B08217 /* LaunchScreen.storyboard */,
 				102240F5218566C900B08217 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				102240EC218566C800B08217 /* SecondViewController.swift in Sources */,
 				102240E8218566C800B08217 /* AppDelegate.swift in Sources */,
+				1022411821856D4600B08217 /* ThirdViewController.swift in Sources */,
 				102240EA218566C800B08217 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZNYB3L9H8;
 				INFOPLIST_FILE = iKid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZNYB3L9H8;
 				INFOPLIST_FILE = iKid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
